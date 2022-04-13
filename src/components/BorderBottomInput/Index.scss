@@ -1,0 +1,21 @@
+.border-bottom-input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 3px solid #EBEBEB;
+  padding: 1rem 0;
+  color: $dark-purple-1;
+  font-size: 2.4rem;
+  &:focus {
+    border-bottom-color: $color-primary;
+    outline: none;
+  }
+  &__label {
+    color: $light-purple-1;
+    font-size: $label-font-size;
+    display: flex;
+  }
+  &::placeholder {
+    color: $dark-grey-2;
+  }
+}
